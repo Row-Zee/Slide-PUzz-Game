@@ -1,0 +1,84 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    background-color: #2f3638;
+    text-align: center;
+    flex-direction: column;
+    padding-top: 2%;
+}
+#grid {
+    width: 500px;
+    height: 500px;
+    background: #E4FDE1;
+    margin: 10px auto;
+}
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    justify-content: space-evenly;
+    font-family: 'Krona One', sans-serif;
+    color: #E4FDE1;
+}
+ul li {
+    background: #456990;
+    width: 30%;
+    height: 150px;
+    border: 1px solid #028090;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 3rem;
+}
+
+.blank {
+    background: #54dfe4;
+    border: 2px solid #028090;
+}
+
+h1 {
+    color: #E4FDE1;
+    font-family: 'Krona One', sans-serif;
+    text-align: center;
+    
+}
+
+
+#popup {
+    width: 50%;
+    height: 300px;
+    background: #42cdc2;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: 'Krona One', sans-serif;
+
+}
+
+#popup #message {
+    color:  #2f3638;
+    margin: 0;
+    font-size: 4rem;
+}
+
+.hide {
+    display: none;
+}
+
+#popup #header {
+    text-align: right;
+    padding: 5px 10px;
+}
+
+#popup #header button {
+    padding: 10px;
+    border: 0px;
+    background: #456990;
+    color: #E4FDE1;
+    cursor: pointer;
+}
